@@ -1,0 +1,111 @@
+@media only screen and (min-width: 300px) {
+  .social_media_wrapper {
+    width: 100%;
+  }
+  .social_media li {
+    width: 12.3%;
+    list-style: none;
+    float: left;
+    margin-right: 4%;
+    cursor: pointer;
+  }
+  .social_media a:last-child li {
+    margin-right: 0;
+  }
+  .footer_contact_details {
+    margin-top: 5px;
+  }
+  .footer_address, .footer_contact_details, .footer_recruitment, .footer_map {
+    color: white;
+    width: 60%;
+    float: left;
+    clear: both;
+  }
+  .footer_address p, .footer_contact_details p, .footer_recruitment p, .footer_map p {
+    line-height: 4px;
+    color: white;
+  }
+  .footer_contact_details a, .footer_recruitment a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .social_wrapper {
+    width: 100%;
+    float: left;
+    clear: both;
+  }
+  .footer_contact_details a:hover, .footer_recruitment a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+  .footer_address {
+    margin-top: 12px;
+  }
+  .footer_contact_details {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .social_media li {
+    width: 8%;
+  }
+  .footer_address, .footer_recruitment, .footer_map {
+    margin-top: 6px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .footer_map {
+    clear: none;
+  }
+  .footer_recruitment, .footer_map {
+    margin-top: 0;
+  }
+  .city_name {
+    display: none;
+  }
+  .social_media_wrapper {
+    float: right;
+    width: 50%;
+  }
+  .social_media li {
+    width: 1.9rem;
+    margin-left: 0%;
+    margin-right: 3%;
+    float: right;
+  }
+  .social_media a:first-child li {
+    margin-right: 0%;
+  }
+  .social_media a:last-child li {
+    margin-right: 3%;
+  }
+  .footer_address, .footer_contact_details, .footer_recruitment, .footer_map {
+    width: 50%;
+  }
+  .social_wrapper {
+    margin-top: 15px;
+  }
+  .footer_address {
+    margin-top: 12px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .social_media li {
+    width: 2.5rem;
+  }
+  .footer_address, .footer_contact_details, .footer_recruitment, .footer_map {
+    font-size: 1.2rem;
+  }
+  .footer_address {
+    margin-top: 15px;
+  }
+}
+
+
+
+.footerLink:hover{
+  color:white;
+}

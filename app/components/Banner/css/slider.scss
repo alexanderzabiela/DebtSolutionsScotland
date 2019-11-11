@@ -1,0 +1,130 @@
+
+span.input-range__label-container,  {
+  display: none!important;
+}
+
+.input-range__track--background{
+  left: 0;
+    margin-top: -0.15rem;
+    position: absolute;
+    right: 0;
+    width: 90%;
+    margin-left: 4%;
+    top: 50%;
+}
+
+.input-range__track--active{
+  background:#35DCB6;
+}
+
+.input-range__track{
+  height: 9px;
+}
+
+.input-range__slider{
+  background: url('../images/slider_switch.png');
+  border-radius: 0;
+  width: 57px;
+  top: -12px;
+  height: 36px;
+  border: none;
+}
+
+.input-range__slider:active{
+  transform: none;
+}
+
+
+
+.halfInput{
+  width: 45.2%!important;
+  margin-right: 2.5%;
+}
+
+p {
+  clear: both;
+}
+
+input[type="text"], input[type="tel"], input[type="email"] {
+  background-color: white;
+  color: black;
+  height: 55px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 29px;
+  font-size: 24px;
+  float: left;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .input-range {
+    position: relative;
+    width: 80%;
+    background-color: white;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    margin: 0 auto;
+    border-bottom-right-radius: 0px!important;
+    border-bottom-left-radius: 0px!important;
+  }
+
+  .input-range__slider{
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    width: 56px;
+    top: -7px;
+    height: 27px;
+    border: none;
+  }
+
+  input[type="text"], input[type="tel"], input[type="email"] {
+    
+    font-size: 1.2rem;
+    float: left;
+    height: 43px;
+    width: 85%;
+    padding: 10px;
+  }
+
+  .halfInput{
+    width: 87%!important;
+    margin-right: 2.5%;
+  }
+
+  p {
+    margin: '0 5% 1.75em',
+  }
+  
+}
+
+@media only screen and (min-width: 1025px) {
+.input-range {
+  position: relative;
+  width: 70%;
+  margin-left: 7% !important;
+  background-color: white;
+  height: 53px;
+  border-radius: 10px;
+  margin-bottom: 3%;
+  float: left;
+  border-top-right-radius: 0px!important;
+  border-bottom-right-radius: 0px!important;
+}
+input[type="text"], input[type="tel"], input[type="email"] {
+  background-color: white;
+  color: black;
+  width: 93%;
+  height: 56px;
+  padding: 3%;
+  border-radius: 10px;
+  margin-bottom: 19px;
+  font-size: 24px;
+  float: left;
+  margin-left: 6%;
+}
+}
+
